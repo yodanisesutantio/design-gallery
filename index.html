@@ -26,20 +26,125 @@
 
     <title>Galeri Desain | Yodanis E. Sutantio</title>
 </head>
-<body class="bg-[#F5F5F5]">
-    <header class="font-sans flex flex-col gap-2 items-center justify-center bg-cover bg-center h-64 px-6 rounded-b-2xl drop-shadow-md" style="background-image: url('./img/bg.jpeg');">
-        <h1 class="font-bold text-3xl tracking-tight pr-16">Selamat Datang di Galeri Desain</h1>
-        <p class="font-normal text-base pr-16">Laman ini berisi karya-karya dari Yodanis E. Sutantio</p>
+<body class="bg-[#F5F5F5]" style="scrollbar-width: none;">
+    <!-- Hero Section -->
+    <header class="font-sans flex flex-col gap-2 items-center lg:items-start justify-start lg:justify-center bg-cover bg-center h-64 lg:w-full lg:h-[33rem] pt-6 lg:pt-0 px-6 lg:px-20 rounded-b-2xl drop-shadow-md" style="background-image: url('./img/bg.jpeg');">
+        <h1 class="font-bold text-3xl lg:text-4xl xl:text-5xl tracking-tight pr-16">Selamat Datang di Galeri Desain</h1>
+        <p class="font-normal text-base lg:text-lg xl:text-xl pr-16">Laman ini berisi karya-karya dari Yodanis E. Sutantio</p>
     </header>
 
-    <section class="font-sans px-6 my-8">
-        <h2 class="font-semibold text-xl tracking-tight text-center">Projek Saya</h2>
+    <section class="font-sans px-6 lg:px-20 my-8 lg:my-16">
+        <!-- Headers -->
+        <h2 class="font-bold text-2xl xl:text-3xl tracking-tight text-center">Projek Saya</h2>
+
+        <!-- Projects -->
+        <div class="flex flex-col gap-8 my-5">
+            <!-- Logos -->
+            <div class="flex flex-col gap-3">
+                <h3 class="font-semibold text-xl xl:text-2xl tracking-tight text-[#787878]">Logo</h3>
+
+                <div class="flex flex-col lg:grid lg:grid-cols-2 xl:grid-cols-3 gap-6">
+                    <div class="relative w-full flex flex-col items-center justify-center aspect-square rounded-xl shadow-lg xl:shadow-xl bg-[#fff] overflow-hidden">
+                        <img src="./img/Logo SI Utama Normal.png" alt="Logo SI Thumbnail" class="w-[80%]">
+                        <a href="#" class="absolute top-0 left-0 w-full aspect-square hover:bg-[#000]/20 flex flex-col items-center justify-center duration-500 cursor-pointer"></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Social Media Posts -->
+            <div class="flex flex-col gap-3">
+                <h3 class="font-semibold text-xl xl:text-2xl tracking-tight text-[#787878]">Post Social Media</h3>
+
+                <div class="flex flex-col lg:grid lg:grid-cols-2 xl:grid-cols-3 gap-6">
+                    <div class="relative w-full flex flex-col items-center justify-center aspect-square rounded-xl shadow-lg xl:shadow-xl bg-[#fff] overflow-hidden">
+                        <img src="./img/A4 - 14.jpg" alt="Review Skripsi Lucia Devlina" class="h-full">
+                        <a href="#" class="absolute top-0 left-0 w-full aspect-square hover:bg-[#000]/20 flex flex-col items-center justify-center duration-500 cursor-pointer"></a>
+                    </div>
+                    <div class="relative w-full flex flex-col items-center justify-center aspect-square rounded-xl shadow-lg xl:shadow-xl bg-[#fff] overflow-hidden">
+                        <img src="./img/pamflet -01.png" alt="Poster 17 Agustus 2022" class="h-full">
+                        <a href="#" class="absolute top-0 left-0 w-full aspect-square hover:bg-[#000]/20 flex flex-col items-center justify-center duration-500 cursor-pointer"></a>
+                    </div>
+                    <div class="relative w-full flex flex-col items-center justify-center aspect-square rounded-xl shadow-lg xl:shadow-xl bg-[#fff] overflow-hidden">
+                        <img src="./img/branding-07.png" alt="Poster Donor Darah" class="h-full">
+                        <a href="#" class="absolute top-0 left-0 w-full aspect-square hover:bg-[#000]/20 flex flex-col items-center justify-center duration-500 cursor-pointer"></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Posters -->
+            <div class="flex flex-col gap-3">
+                <h3 class="font-semibold text-xl xl:text-2xl tracking-tight text-[#787878]">Poster & Review</h3>
+
+                <div class="flex flex-col lg:grid lg:grid-cols-2 xl:grid-cols-3 gap-6">
+                    <div class="relative w-full flex flex-col items-center justify-center aspect-square rounded-xl shadow-lg xl:shadow-xl bg-[#fff] overflow-hidden">
+                        <img src="./img/A4 - 14.jpg" alt="Review Skripsi Lucia Devlina" class="h-full">
+                        <a href="#" class="absolute top-0 left-0 w-full aspect-square hover:bg-[#000]/20 flex flex-col items-center justify-center duration-500 cursor-pointer"></a>
+                    </div>
+                    <div class="relative w-full flex flex-col items-center justify-center aspect-square rounded-xl shadow-lg xl:shadow-xl bg-[#fff] overflow-hidden">
+                        <img src="./img/pamflet -01.png" alt="Poster 17 Agustus 2022" class="h-full">
+                        <a href="#" class="absolute top-0 left-0 w-full aspect-square hover:bg-[#000]/20 flex flex-col items-center justify-center duration-500 cursor-pointer"></a>
+                    </div>
+                    <div class="relative w-full flex flex-col items-center justify-center aspect-square rounded-xl shadow-lg xl:shadow-xl bg-[#fff] overflow-hidden">
+                        <img src="./img/branding-07.png" alt="Poster Donor Darah" class="h-full">
+                        <a href="#" class="absolute top-0 left-0 w-full aspect-square hover:bg-[#000]/20 flex flex-col items-center justify-center duration-500 cursor-pointer"></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Banner -->
+            <div class="flex flex-col gap-3">
+                <h3 class="font-semibold text-xl xl:text-2xl tracking-tight text-[#787878]">Banner, Backdrop, dan sejenisnya</h3>
+
+                <div class="flex flex-col lg:grid lg:grid-cols-2 xl:grid-cols-3 gap-6">
+                    <div class="relative w-full flex flex-col items-center justify-center aspect-square rounded-xl shadow-lg xl:shadow-xl bg-[#fff] overflow-hidden">
+                        <img src="./img/banner-01.jpg" alt="Banner KKN" class="w-full">
+                        <a href="#" class="absolute top-0 left-0 w-full aspect-square hover:bg-[#000]/20 flex flex-col items-center justify-center duration-500 cursor-pointer"></a>
+                    </div>
+                    <div class="relative w-full flex flex-col items-center justify-center aspect-square rounded-xl shadow-lg xl:shadow-xl bg-[#fff] overflow-hidden">
+                        <img src="./img/bd-12.png" alt="Backdrop 17 Agustus 2022" class="w-full">
+                        <a href="#" class="absolute top-0 left-0 w-full aspect-square hover:bg-[#000]/20 flex flex-col items-center justify-center duration-500 cursor-pointer"></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certificate -->
+            <div class="flex flex-col gap-3">
+                <h3 class="font-semibold text-xl xl:text-2xl tracking-tight text-[#787878]">Sertifikat</h3>
+
+                <div class="flex flex-col lg:grid lg:grid-cols-2 xl:grid-cols-3 gap-6">
+                    <div class="relative w-full flex flex-col items-center justify-center aspect-square rounded-xl shadow-lg xl:shadow-xl bg-[#fff] overflow-hidden">
+                        <img src="./img/banner-01.jpg" alt="Banner KKN" class="w-full">
+                        <a href="#" class="absolute top-0 left-0 w-full aspect-square hover:bg-[#000]/20 flex flex-col items-center justify-center duration-500 cursor-pointer"></a>
+                    </div>
+                    <div class="relative w-full flex flex-col items-center justify-center aspect-square rounded-xl shadow-lg xl:shadow-xl bg-[#fff] overflow-hidden">
+                        <img src="./img/bd-12.png" alt="Backdrop 17 Agustus 2022" class="w-full">
+                        <a href="#" class="absolute top-0 left-0 w-full aspect-square hover:bg-[#000]/20 flex flex-col items-center justify-center duration-500 cursor-pointer"></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Creative Proposals -->
+            <div class="flex flex-col gap-3">
+                <h3 class="font-semibold font-italic text-xl xl:text-2xl tracking-tight text-[#787878]">Lain-lain</h3>
+
+                <div class="flex flex-col lg:grid lg:grid-cols-2 xl:grid-cols-3 gap-6">
+                    <div class="relative w-full flex flex-col items-center justify-center aspect-square rounded-xl shadow-lg xl:shadow-xl bg-[#fff] overflow-hidden">
+                        <img src="./img/banner-01.jpg" alt="Banner KKN" class="w-full">
+                        <a href="#" class="absolute top-0 left-0 w-full aspect-square hover:bg-[#000]/20 flex flex-col items-center justify-center duration-500 cursor-pointer"></a>
+                    </div>
+                    <div class="relative w-full flex flex-col items-center justify-center aspect-square rounded-xl shadow-lg xl:shadow-xl bg-[#fff] overflow-hidden">
+                        <img src="./img/bd-12.png" alt="Backdrop 17 Agustus 2022" class="w-full">
+                        <a href="#" class="absolute top-0 left-0 w-full aspect-square hover:bg-[#000]/20 flex flex-col items-center justify-center duration-500 cursor-pointer"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <footer class="font-sans border-t border-[#484848] mt-3 pt-3 mx-6 font-sans">
+    <footer class="font-sans border-t border-[#484848] mb-6 pt-3 mx-6 lg:mx-20 font-sans">
         <div class="flex flex-row justify-between">
-            <p class="text-sm/tight">©2024 Yodanis E. Sutantio</p>
-            <p class="text-sm/tight">All rights reserved.</p>
+            <p class="text-sm/tight xl:text-base/tight">©2024 Yodanis E. Sutantio</p>
+            <p class="text-sm/tight xl:text-base/tight">All rights reserved.</p>
         </div>
     </footer>
 </body>
